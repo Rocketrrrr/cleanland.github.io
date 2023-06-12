@@ -10,6 +10,8 @@ body{
     --primary:rgb(0, 40, 0);
     --secondary:rgb(126, 191, 83);
     --third:rgba(0, 0, 0, 0.731);
+    --fourth:rgb(86, 162, 35);
+    --fifth:rgb(213, 220, 208); 
 }
 h1,h4,p,h3{
     font-family: 'Work Sans',sans-serif;
@@ -56,6 +58,9 @@ nav ul li a{
     font-family: 'Work Sans',sans-serif;
     font-size: 10px;
     font-weight: 900;
+}
+nav ul li a:hover{
+    color: var(--secondary);
 }
 .cta-action{
     display: flex;
@@ -212,9 +217,8 @@ nav ul li a{
 .about-image img{
     width: 60%;
     margin-left: 20%;
-    padding: 20px 20px 0 20px;
     height: 60vh;
-    background-color:rgba(126, 191, 83, 0.71);
+   
 }
 
 .mini-details{
@@ -311,6 +315,53 @@ nav ul li a{
 .service-container{
     width: 80%;
     margin-left: 10%;
-    border: 1px solid white;
     height: 70vh;
+    display: flex;
+}
+.service-container div{
+    width: 50%;
+    /* height: 70vh; */
+    /* border: 1px solid white; */
+}
+
+.service-container div img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+    height: 50vh;
+    /* background-color:rgba(196, 249, 160, 0.726) ;
+    padding: 20px 20px 0 20px; */
+}
+.service-list{
+    padding: 70px 0 0 40px;
+}
+.service-list h4{
+    color: var(--fourth);
+    text-transform: uppercase;
+    font-size: 0.6em;
+    padding-bottom: 20px;
+}
+.service-list h1{
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 500;
+    
+}
+.service-list hr{
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.service-item{
+    margin-top: 10px;
+    height: 12vh;
+}
+.service-item h3{
+    font-weight: 500;
+    color: white;
+}
+.service-item p{
+    margin-top: 5%;
+    color: var(--fifth);
+    font-size: 0.6em;
 }
