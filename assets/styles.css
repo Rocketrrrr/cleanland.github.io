@@ -4,7 +4,7 @@
 }
 body{
     background-color: #fff;
-    height: 200vh;
+    min-height: 100vh;
 }
 :root{
     --primary:rgb(0, 40, 0);
@@ -179,7 +179,7 @@ nav ul li a{
     width: 90%;
     margin: 5% 0 0 5%;
     height: 70vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .about-container{
     display: flex;
@@ -265,4 +265,37 @@ nav ul li a{
 .working-progress p{
     font-size: 0.6em;
     font-weight: 700;
+}
+
+/*Fliers*/
+#fliers{
+    width: 90%;
+    margin: 0 0 0 5%;
+    height: 30vh;
+}
+.fliers-container{
+    width: 80%;
+    margin-left: 10%;
+    height: 30vh;
+    display: flex;
+}
+.fliers-container > div{
+    display: flex;
+    width: 33.33%;
+    padding: 25px 0 0 30px;
+}
+.fliers-container > div img{
+    width: 35px;
+}
+.fliers-container > div h4{
+    font-size: 0.9em;
+    padding-bottom: 20px;
+}
+.flier-content{
+    margin-left: 6%;
+    margin-top: 6%;
+}
+.flier-content p{
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
 }
