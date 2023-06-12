@@ -4,7 +4,6 @@
 }
 body{
     background-color: #fff;
-    min-height: 500vh;
 }
 :root{
     --primary:rgb(0, 40, 0);
@@ -228,7 +227,8 @@ nav ul li a:hover{
     width: 60%;
     margin-left: 20%;
     height: 60vh;
-   
+   padding: 20px 20px 0 20px;
+   background-color: rgb(144, 184, 117);
 }
 
 .mini-details{
