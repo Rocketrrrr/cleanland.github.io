@@ -4,7 +4,7 @@
 }
 body{
     background-color: #fff;
-    height: 100vh;
+    height: 200vh;
 }
 :root{
     --primary:rgb(0, 40, 0);
@@ -111,7 +111,7 @@ nav ul li a{
 #book-a-service{
     width: 80%;
     margin:-5% 0 0 10%;
-    box-shadow: 1px 2px 3px var(--third);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     height: 30vh;
     background-color: #fff; 
     padding: 20px 0 0 0;
