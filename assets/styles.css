@@ -75,6 +75,9 @@ nav ul li a:hover{
 .call-to-action{
     border: 1px solid var(--primary);
     padding: 10px 40px;
+    text-decoration: none;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 12px;
 }
 .call-to-action:hover{
     color: #fff;
@@ -84,6 +87,13 @@ nav ul li a:hover{
 .cta-hover:hover{
     color: var(--secondary);
     background-color: #fff;
+}
+#our-services-link{
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+#our-services-link:hover{
+    color: #fff;
 }
 
 #banner-section{
@@ -388,8 +398,8 @@ width: 80%;
 }
 .service-two-container div img{
     width: 90%;
-    height: 60vh;
-    padding: 10vh 0 0 10vh;
+    height: 50vh;
+    padding: 5vh 0 0 10vh;
 }
 .service-two-list h4{
     color: var(--secondary);
@@ -398,7 +408,7 @@ width: 80%;
     padding: 0 0 40px 0;
 }
 .service-two-list h1{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.3em;
 }
 .service-two-list hr{
@@ -413,11 +423,22 @@ width: 80%;
 .service-two-list > div{
     width: 90%;
     display: flex;
-    height: 35vh;
+    height: 25vh;
     margin: 30px 0 0 0;
-    border: 1px solid black;
+    
 }
 .service-two-list > div div{
     width: 50%;
-    border: 1px solid black;
+    
+}
+.service-two-list > div div ul li{
+    color: var(--third);
+    font-family: 'Work Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 5px 10px 25px;
+}
+
+.service-two-list > div div ul {
+    list-style-type: none;
 }
