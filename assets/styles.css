@@ -4,6 +4,7 @@
 }
 body{
     background-color: #fff;
+    height: 100vh;
 }
 :root{
     --primary:rgb(0, 40, 0);
